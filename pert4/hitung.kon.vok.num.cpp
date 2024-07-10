@@ -29,6 +29,18 @@ int main() {
     cout << "Masukkan kalimat: ";
     getline(cin, kalimat); 
     hitungKarakter(kalimat);
+    string cari;
+    cout << "Masukkan data yang ingin dicari: ";
+    cin >> cari;
+
+   
+    size_t pos = kalimat.find(cari);
+    if (pos != string::npos) {
+        cout << "Data ditemukan pada posisi: " << pos << endl;
+    } else {
+        cout << "Data tidak ada..." << endl;
+    }
+
 
     return 0;
 }

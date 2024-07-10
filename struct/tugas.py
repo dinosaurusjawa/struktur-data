@@ -52,7 +52,7 @@ for i in range(2):
     print()
 
 print ("Data Mahasiswa")
-for i, mhs in enumerate(mahasiswa): 
+for i, mhs in enumerate(mahasiswa):
     print(f"Mahasiwa ke-{i+1}: ")
     print("NIM :", mhs.nim)
     print("Nama :", mhs.nama)
