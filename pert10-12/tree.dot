@@ -1,0 +1,8 @@
+digraph G {
+    "Universitas Esa Unggul" -> "Institut Teknologi Bandung";
+    "Institut Teknologi Bandung" -> "Institut Pertanian Bogor";
+    "Institut Teknologi Bandung" -> "Universitas Airlangga";
+    "Universitas Airlangga" -> "Universitas Diponegoro";
+    "Universitas Esa Unggul" -> "Universitas Gadjah Mada";
+    "Universitas Gadjah Mada" -> "Universitas Padjadjaran";
+}
